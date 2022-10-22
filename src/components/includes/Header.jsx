@@ -24,8 +24,10 @@ const SectionContainer = styled.section`
     background-color: #ff7e05;
 `;
 const HeaderSection = styled.header`
-    padding: 35px 50px;
+    padding: 15px;
+    align-items: center;
     display: flex;
+    -webkit-box-pack: justify;
     justify-content: space-between;
 `;
 const SectionRegister = styled.div``;

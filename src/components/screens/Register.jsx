@@ -42,9 +42,13 @@ function Register() {
 }
 
 export default Register;
-const SectionContainer = styled.section``;
+const SectionContainer = styled.section`
+    width: 100%;
+`;
 const NameContainer = styled.div``;
-const List = styled.ul``;
+const List = styled.ul`
+    background-color: aliceblue;
+`;
 const Item = styled.li`
     display: flex;
     flex-direction: column;
@@ -52,5 +56,5 @@ const Item = styled.li`
 `;
 const Img = styled.img``;
 const Headings = styled.h2`
-    color: blue;
+    color: black;
 `;
